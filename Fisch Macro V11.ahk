@@ -31,7 +31,7 @@ AutoBlurCamera := true
 AutoBlurDelay := 50
 
 ; How long to wait after fishing before restarting
-RestartDelay := 1000
+RestartDelay := 500
 
 ; How long to hold the cast for before releasing
 HoldRodCastDuration := 1000
@@ -40,7 +40,7 @@ HoldRodCastDuration := 1000
 WaitForBobberDelay := 1000
 
 ; Set this to your navigation key, IMPORTANT
-NavigationKey := "ň"
+NavigationKey := "}"
 
 ;     SHAKE SETTINGS     ====================================================================================================;
 
@@ -55,7 +55,7 @@ ClickShakeFailsafe := 20
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
-ClickScanDelay := 100
+ClickScanDelay := 50
 ; How many scans before clicking regardless of repeats
 RepeatBypassCounter := 10
 
